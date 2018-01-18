@@ -1,0 +1,27 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.1",
+  "description": "read tweets and spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boginis1/liri-node-app.git"
+  },
+  "author": "Holly Zoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boginis1/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/boginis1/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "omdb-api-client": "^2.0.1",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
