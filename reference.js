@@ -1,19 +1,20 @@
 require("dotenv").config();
 const keys = require("./keys.js");
 const fs = require('fs')
-var Omdb = require('omdb');
-var OmdbApiClient = require("OmdbApiClient");
-var client = new Omdb({
+const omdb = require('omdb');
+const OmdbApiClient = require("omdb-api-client");
+const Omdbkey = new Omdbkey({
     APIKey: process.env.OMDB_APIKey
 
 });
 
 
 
+
 function movie() {
     //   // import
     var title = process.argv[3]
-    client.search("Camelot", function(err, movies) {
+omdb.search("Camelot", function(err, movies) {
         if (err) {
             return console.error(err);
         }

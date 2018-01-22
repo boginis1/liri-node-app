@@ -9,15 +9,17 @@ console.log('this is loaded');
 
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
-  secret: process.env.SPOTIFY_SECRET
+ secret: process.env.SPOTIFY_SECRET
 };
+
 exports.omdb = {
 
-	apikey: process.env.APIKEY
+	OMDB_API_KEY: process.env.OMDB_API_KEY
 }
 
 
 // module.exports = {
 // 	twitter: twitter, 
-// 	spotify: spotify
+// 	spotify: spotify,
+// 	omdb: omdb
 // }
